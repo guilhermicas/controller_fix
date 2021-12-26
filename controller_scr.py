@@ -68,6 +68,8 @@ else:
     # 1. Deleting broken js devices
     delete_diff_js()
 
+    input("Insert controller now and press Enter")
+
     # 2. Restart xboxdrv.service
     os.system("sudo systemctl restart xboxdrv.service")
 
